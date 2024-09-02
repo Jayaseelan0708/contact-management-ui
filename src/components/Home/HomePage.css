@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.logined{
+background-size: cover;
+background-position: center;
+text-align: center;
+color: black;
+font: size 25px; ;
+font-weight: bold;
+    
+}
+.main{
+    display: flex;
+    gap: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-nav{
+   width: 100%; 
+   flex: 1;  
+   
+}
+.header-navbar{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .header-tittle{
+   font-size: 28px;
+    font-weight: 500;
+    color: #757575;
+ }
+.navbar-nav{
+padding-left: 800px;
+  }
+  .profile-dropdown{
+   padding-left: 5px;
+  }
+ .card-container{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .card{
+    background-color:#faf1f1;
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+ }
+
+ 
+ .card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+ }
+ .card-cover{
+background-color: pink;
+font-size: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+color:#969393;
+
+ }
+ .card-tittle{
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px ;
+    font: size 10px;
+    color: #526d82;
+    border-radius: 10px;
+ }
+
+
+
+     

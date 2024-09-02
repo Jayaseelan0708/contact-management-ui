@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+     */
+  
+  .container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+  }
+  
+  
+  .loginform{
+    justify-content: center;
+    width: 150%;
+
+    
+  }
+  .btn-login{
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+     
+  }
+  .signup{
+    width: 100%;
+    text-align: center  ;
+
+  }
+  .btn-signup{
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    
+    border-radius: 5px;
+    outline: none;
+  }
+  .form-field {
+    margin-bottom: 10px; /* Adjust this value as needed */
+  }
+  .login-header{
+    text-align: center;
+    padding: 10px;
+  }
